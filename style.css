@@ -1,0 +1,83 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/**********************************************
+*** TOP PART
+**********************************************/
+
+.top {
+    height: 30vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(thaiFood.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+/***** FORM *****/
+
+.search {
+    padding: 20px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+}
+
+.search__container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search_description {
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: border 0.3s;
+    width: 400px;
+}
+
+.search_find {
+    width: 50px;
+    height: 30px;
+}
+
+
+/***** Content *****/
+
+#content-text {
+    color: var(--yt-spec-text-primary);
+    font-size: var(--ytd-user-comment_-_font-size);
+    font-weight: var(--ytd-user-comment_-_font-weight);
+    line-height: var(--ytd-user-comment_-_line-height);
+    line-height: 2rem;
+}
