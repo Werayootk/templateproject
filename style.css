@@ -26,6 +26,10 @@ span {
     vertical-align: baseline;
 }
 
+div {
+    display: block;
+}
+
 
 /**********************************************
 *** TOP PART
@@ -74,10 +78,4 @@ span {
 
 /***** Content *****/
 
-#content-text {
-    color: var(--yt-spec-text-primary);
-    font-size: var(--ytd-user-comment_-_font-size);
-    font-weight: var(--ytd-user-comment_-_font-weight);
-    line-height: var(--ytd-user-comment_-_line-height);
-    line-height: 2rem;
-}
+.content-display {}
